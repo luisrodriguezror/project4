@@ -1,0 +1,1 @@
+CONNSTRING='postgresql+psycopg://postgres:postgres@localhost/Consumer_Behaviour'

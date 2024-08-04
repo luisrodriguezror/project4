@@ -1,12 +1,12 @@
 # Consumer Behavior and Shopping Habits Analysis
 
 ## Project Overview
-This project aims to analyze consumer behavior and shopping habits using machine learning techniques. By leveraging the Consumer Behavior and Shopping Habits Dataset, we will uncover insights into consumer preferences, tendencies, and patterns during their shopping experiences. The project will utilize various technologies including Python Pandas, Python Matplotlib, Scikit-learn, and more to clean, analyze, and visualize the data, ultimately building a machine learning model to make predictions based on the dataset.
+This project aims to analyze consumer behavior and shopping habits using machine learning techniques. By leveraging the Consumer Behavior and Shopping Habits Dataset, we will uncover insights into consumer preferences, tendencies, and patterns during their shopping experiences. The project will utilize various technologies, including Python Pandas, Python Matplotlib, Scikit-learn, and more, to clean, analyze, and visualize the data, ultimately building a machine learning model to make predictions based on the dataset.
 
 ## Project
-An online retailer company that operates in the US hired us, a marketing company, to help them develop a strategy to improve their marketing campaigns and, ultimately, increase their sales. 
+An online retailer company that operates in the US hired us, a marketing company, to help them develop a strategy to improve their marketing campaigns and ultimately increase their sales.
 
-The aim of our project is to predict whether a consumer will make a purchase or not. To perform the analysis, we’ll start by reviewing a dataset provided by the retailer company that includes customer personal information and purchase history. 
+The aim of our project is to predict whether a consumer will make a purchase or not. To perform the analysis, we’ll start by reviewing a dataset provided by the retailer company that includes customer personal information and purchase history.
 
 We will examine relationships between customer demographics (such as age and gender) and purchase details (such as item purchased, category, and purchase amount). Additionally, we will analyze how location, size, color, season, and review rating influence purchase behavior. We will also explore the impact of subscription status, shipping type, discount applied, promo code usage, previous purchases, payment method, and frequency of purchases on the likelihood of making a purchase. This analysis will help us uncover patterns and trends to better understand consumer behavior.
 

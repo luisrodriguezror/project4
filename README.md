@@ -91,3 +91,26 @@ The analysis process is divided into two broad phases: exploration and cleanup, 
 - **Data Preparation**: Encode categorical variables and standardize numerical features.
 - **Model Training**: Train a logistic regression model using Scikit-learn.
 - **Model Evaluation**: Evaluate the model's performance using accuracy score and classification report.
+
+## Conclusions
+
+### Customer Segmentation
+- A customer segmentation analysis using the K-Means algorithm identified four distinct clusters based on specific behavioral attributes. For example, men and women around 43 years old with different purchase patterns and geographical locations. This allows for more effective personalization of marketing campaigns by targeting efforts at specific groups with common characteristics and preferences.
+
+### High-Spending Predictive Models
+- A Random Forest model was developed to predict whether a customer will spend more than $85 in a purchase, achieving an 80% accuracy rate. The most influential features were age and previous purchases, followed by gender and purchase frequency. This model is useful for identifying high-value customers and directing special offers and promotions to them.
+
+### Neural Networks for Predicting Purchase Categories
+- A neural network model was attempted to predict the product categories customers would buy. Initially, it achieved 100% accuracy in 10 epochs, indicating overfitting due to the inclusion of the purchased item as a feature. By excluding this feature and increasing the number of epochs, a more realistic prediction was achieved for categories such as accessories, footwear, and outerwear. This approach allows for the design of more precise and specific marketing campaigns based on customer characteristics.
+
+### Neural Networks for Predicting Specific Items
+- Another neural network model was developed to predict the purchase of specific items, such as jewelry, without including the category as a feature. This model also showed high accuracy in a few epochs, suggesting possible overfitting. However, with more data, the model is expected to maintain its accuracy over more epochs, providing a powerful tool for offer personalization.
+
+### Email Marketing Optimization
+- A RandomForestClassifier model was used to identify customers likely to use promotional codes. By refining the considered variables (removing location, season, and review ratings), the model's ability to identify these customers was improved, achieving a better balance between precision and recall. This maximizes the impact of promotions and ensures they are directed at the customers most likely to use them.
+
+### Application of Results to Marketing Strategies
+- The models and analyses conducted provide a solid foundation for improving marketing strategies. Customer segmentation and purchase behavior prediction allow for effective personalization, increasing the relevance of campaigns and potentially the conversion rate. Identifying high-value customers and optimizing the use of promotional codes are key strategies derived from these analyses.
+
+### Relevance of Additional Data
+- To improve accuracy and avoid overfitting in predictive models, it is crucial to have more data and additional features. This will enable the training of more robust models and obtain results that better reflect real customer behaviors, further optimizing marketing strategies.
